@@ -21,6 +21,7 @@
 		DD99CBFF17F9A6DA000CB31E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD99CBE117F9A6D9000CB31E /* UIKit.framework */; };
 		DD99CC0717F9A6DA000CB31E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD99CC0517F9A6DA000CB31E /* InfoPlist.strings */; };
 		DD99CC0917F9A6DA000CB31E /* DemoGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99CC0817F9A6DA000CB31E /* DemoGitTests.m */; };
+		DD99CC1417F9B91B000CB31E /* SecondUIControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99CC1317F9B91B000CB31E /* SecondUIControllerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DD99CC0417F9A6DA000CB31E /* DemoGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoGitTests-Info.plist"; sourceTree = "<group>"; };
 		DD99CC0617F9A6DA000CB31E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD99CC0817F9A6DA000CB31E /* DemoGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoGitTests.m; sourceTree = "<group>"; };
+		DD99CC1217F9B91B000CB31E /* SecondUIControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondUIControllerViewController.h; sourceTree = "<group>"; };
+		DD99CC1317F9B91B000CB31E /* SecondUIControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondUIControllerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				DD99CBF317F9A6D9000CB31E /* ViewController.m */,
 				DD99CBF517F9A6DA000CB31E /* Images.xcassets */,
 				DD99CBE417F9A6D9000CB31E /* Supporting Files */,
+				DD99CC1217F9B91B000CB31E /* SecondUIControllerViewController.h */,
+				DD99CC1317F9B91B000CB31E /* SecondUIControllerViewController.m */,
 			);
 			path = DemoGit;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				DD99CBF417F9A6D9000CB31E /* ViewController.m in Sources */,
 				DD99CBEE17F9A6D9000CB31E /* AppDelegate.m in Sources */,
+				DD99CC1417F9B91B000CB31E /* SecondUIControllerViewController.m in Sources */,
 				DD99CBEA17F9A6D9000CB31E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +466,7 @@
 				DD99CC0E17F9A6DA000CB31E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD99CC0F17F9A6DA000CB31E /* Build configuration list for PBXNativeTarget "DemoGitTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				DD99CC1117F9A6DA000CB31E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
